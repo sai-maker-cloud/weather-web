@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai's Forecast</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container" id="bg-container">
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name..." spellcheck="false">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div class="weather-card" id="weather-info" style="display: none;">
+            <h2 id="city-name">London</h2>
+            <img src="" id="weather-icon" alt="Weather Icon">
+            <h1 id="temp">22°C</h1>
+            <p id="description">Cloudy</p>
+            
+            <div class="details">
+                <div class="col">
+                    <p>Humidity</p>
+                    <span id="humidity">50%</span>
+                </div>
+                <div class="col">
+                    <p>Wind Speed</p>
+                    <span id="wind-speed">15 km/h</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
