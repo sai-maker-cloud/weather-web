@@ -78,6 +78,12 @@
     filter: drop-shadow(0 8px 15px rgba(0,0,0,0.3));
     object-fit: contain;
 }
+footer{
+    background:transparent;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+}
 
 #temp { font-size: 80px; font-weight: 700; margin: 5px 0; }
 #city-name { font-size: 32px; font-weight: 600; }
@@ -97,3 +103,4 @@
     #temp { font-size: 60px; }
     #weather-icon { width: 120px; height: 120px; }
 }
+
